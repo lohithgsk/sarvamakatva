@@ -1,0 +1,67 @@
+/* src/styles/Reports.css */
+.reports-dashboard {
+    padding: 20px;
+  }
+  
+  .reports-dashboard .card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .reports-dashboard .card-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .report-filter {
+    padding: 10px 0;
+  }
+  
+  .report-summary-card {
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .report-summary-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-summary-card .card-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .report-summary-card .card-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3498db;
+  }
+  
+  .progress {
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  .reports-dashboard .table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  .chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .reports-dashboard {
+      padding: 10px;
+    }
+    
+    .chart-container {
+      height: 250px;
+    }
+  }
