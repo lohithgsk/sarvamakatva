@@ -30,7 +30,7 @@ export function Layout({ children }: LayoutProps) {
         {/* Sidebar */}
         <div className="w-64 bg-white shadow-lg">
           <div className="flex h-16 items-center justify-center border-b">
-            <h1 className="text-xl font-bold text-indigo-600">NGO Manager</h1>
+            <img src="Ishanya_logo.png" alt="Logo" className="h-100 w-100" />
           </div>
           <nav className="mt-6 px-2">
             {navigation.map((item) => {
